@@ -1,7 +1,7 @@
 import torch
 from torch.autograd import Function
 import math
-from ..lns_tensor import LNSTensor
+from ..lns_tensor.lns_tensor import LNSTensor
 
 class LNSAdd(Function):
     """

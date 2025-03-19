@@ -1,3 +1,7 @@
+"""
+LNS Autograd Module - Custom autograd functions for LNS operations
+"""
+
 from .functions import (
     lns_add_autograd, lns_multiply_autograd, lns_matmul_autograd,
     lns_exp_autograd, lns_log_autograd

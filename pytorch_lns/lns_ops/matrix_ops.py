@@ -1,6 +1,6 @@
 import torch
 from torch.autograd import Function
-from ..lns_tensor import LNSTensor
+from ..lns_tensor.lns_tensor import LNSTensor
 from ..lns_autograd.functions import lns_matmul_autograd
 
 def lns_matmul(a, b):

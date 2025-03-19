@@ -1,6 +1,8 @@
 import torch
 import torch.nn as nn
-from ..lns_tensor import LNSTensor
+import sys
+import os
+from ..lns_tensor.lns_tensor import LNSTensor
 from ..lns_autograd.functions import lns_matmul_autograd
 
 class LNSLinear(nn.Module):

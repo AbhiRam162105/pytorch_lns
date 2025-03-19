@@ -1,6 +1,8 @@
 import torch
 import math
-from ..lns_tensor import LNSTensor
+import sys
+import os
+from ..lns_tensor.lns_tensor import LNSTensor
 
 def lns_add(a, b):
     """

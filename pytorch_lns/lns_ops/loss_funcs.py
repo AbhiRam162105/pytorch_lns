@@ -1,6 +1,6 @@
 import torch
 import math
-from ..lns_tensor import LNSTensor
+from ..lns_tensor.lns_tensor import LNSTensor
 from ..lns_ops.activation_funcs import lns_softmax
 
 def lns_mse_loss(predictions, targets):

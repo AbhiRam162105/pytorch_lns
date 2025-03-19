@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import math
-from ..lns_tensor import LNSTensor
+from ..lns_tensor.lns_tensor import LNSTensor
 
 class LNSConv2d(nn.Module):
     """

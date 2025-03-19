@@ -12,7 +12,7 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Import LNS modules
-from lns_tensor import LNSTensor
+from pytorch_lns.lns_tensor.lns_tensor import LNSTensor
 from lns_nn import LNSLinear, LNSConv2d, LNSMaxPool2d
 from lns_ops import lns_relu, lns_log_softmax, lns_nll_loss
 

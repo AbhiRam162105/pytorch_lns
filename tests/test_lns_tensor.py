@@ -8,7 +8,7 @@ import math
 # Add the parent directory to the path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from lns_tensor import LNSTensor
+from pytorch_lns.lns_tensor.lns_tensor import LNSTensor
 
 class TestLNSTensor(unittest.TestCase):
     """

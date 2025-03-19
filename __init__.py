@@ -1,9 +1,6 @@
-# pytorch_lns/__init__.py
-from .lns_tensor import LNSTensor
-
-# Import submodules
-from . import lns_ops
-from . import lns_autograd
-from . import lns_nn
+"""
+PyTorch Logarithmic Number System (LNS) Package
+"""
+from pytorch_lns.lns_tensor import *
 
 __version__ = "0.1.0"

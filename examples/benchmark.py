@@ -9,7 +9,7 @@ from tabulate import tabulate
 # Add the parent directory to the path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from lns_tensor import LNSTensor
+from pytorch_lns.lns_tensor.lns_tensor import LNSTensor
 from lns_ops.basic_ops import lns_add, lns_multiply, lns_divide, lns_exp
 from lns_ops.matrix_ops import lns_matmul
 from lns_nn import LNSLinear, LNSConv2d

@@ -1,6 +1,9 @@
+# pytorch_lns/__init__.py
 from .lns_tensor import LNSTensor
-from .lns_ops import *
-from .lns_autograd import *
-from .lns_nn import *
 
-__all__ = ['LNSTensor'] + lns_ops.__all__ + lns_autograd.__all__ + lns_nn.__all__
+# Import submodules
+from . import lns_ops
+from . import lns_autograd
+from . import lns_nn
+
+__version__ = "0.1.0"
